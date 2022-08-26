@@ -1,0 +1,53 @@
+.form-input1{
+    text-align: center;
+}
+.addh1{
+    width:100%;
+}
+.form-input2{
+    text-align: center;
+}
+.form-input2 input[type="text"],.form-input2 input[type="password"]{
+    margin: 20px;
+    width:400px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+input[type='email']{
+    margin: 20px;
+    width:400px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+input[type='password']{
+    width:400px;
+    margin: 20px;
+    padding: 10px;
+}
+.login,.addUser{
+    padding: 5px;
+    width:100px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 3px;
+}
+.addUser{
+    margin-top: 20px;
+}
+.login:hover,.add_product:hover{
+    background-color: rgb(42, 42, 42);
+}
+.register{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.sregister{
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+.errorMessage{
+    margin-top: 20px;
+    text-align: center;
+}

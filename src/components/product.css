@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(237, 237, 237);
+    font-family: Poppins;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 50px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.container{
+    margin-left: 90px;
+}
+.clearfix{
+    clear:both;
+}
+.product_container{
+    background-color: white;
+    align-items: center;
+    float:left;
+    margin: 30px;
+    width: 300px;
+    height: 450px;
+}
+
+.productName{
+    margin:0 0 5px 20px;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(41, 41, 41);
+    padding-bottom: 2px;
+}
+.productPrice{
+    text-align: right;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 25px;
+    
+}
+.productDesc{
+    clear: both;
+    margin-left: 20px;
+    font-size: 15px;
+    color: grey;
+}
+.addCart{
+    margin:10px 0px 10px 20px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    width: 260px;
+    transition: 0.3 sec;
+}
+.addCart:hover{
+    background-color: rgb(36, 36, 36);
+    width: 265px;
+    height: 41px;
+    margin-left: 19px;
+}
+img{
+    width:300px;
+    height:300px;
+    /* border-bottom: 4px solid rgb(203, 203, 203); */
+}
+.navbar{
+    padding: 10px;
+    height:60px;
+    background-color: rgb(30, 30, 30);
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.navbarAdmin{
+    padding: 10px;
+    height:60px;
+    background-color: rgb(30, 30, 30);
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.logo img{
+    width:70px;
+    height: auto;
+    float: left;
+    
+}
+.login_nav{
+    float:left;
+}
+.shopping_cart{
+    float: right;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.cart{
+    float: left;
+    width:30px;
+    height:30px;
+}
+.number{
+    float: left;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 100px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.addProduct{
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+}
+.editCart{
+    margin:10px 0px 10px 20px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    width: 120px;
+    transition: 0.3 sec;
+    float: left;
+}
+.editCart:hover{
+    background-color: rgb(36, 36, 36);
+    height: 41px;
+}

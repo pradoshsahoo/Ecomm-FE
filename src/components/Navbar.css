@@ -1,0 +1,19 @@
+.addProduct_nav{
+    margin: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+.Logout{
+    margin: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    float:right;
+    font-weight: bold;
+}
+.addProduct_nav:hover,.Logout:hover{
+    color:rgb(207, 207, 207)
+}
